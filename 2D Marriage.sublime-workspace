@@ -1,0 +1,1067 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"P",
+				"Pause()\tvoid"
+			],
+			[
+				"Tim",
+				"timeScale\tfloat"
+			],
+			[
+				"trans",
+				"transform.localScale.x"
+			],
+			[
+				"In",
+				"Invincible"
+			],
+			[
+				"GetButton",
+				"GetButton(string buttonName)\tbool"
+			],
+			[
+				"get",
+				"GetComponent(string type)\tComponent"
+			],
+			[
+				"Rigidb",
+				"Rigidbody2D\tRigidbody2D"
+			],
+			[
+				"tras",
+				"transform\tTransform"
+			],
+			[
+				"highSC",
+				"highScore.dat"
+			],
+			[
+				"Vector2",
+				"Vector2()\tVector2()"
+			],
+			[
+				"RigidBo",
+				"Rigidbody2D()\tRigidbody2D()"
+			],
+			[
+				"a",
+				"Add(GameObject item)\tvoid"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Assets/Scripts/ChangeMusic.cs",
+			"settings":
+			{
+				"buffer_size": 664,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/CharacterController2D.cs",
+			"settings":
+			{
+				"buffer_size": 4828,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/PlayerMovement.cs",
+			"settings":
+			{
+				"buffer_size": 9941,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/GameManager.cs",
+			"settings":
+			{
+				"buffer_size": 1854,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/CharacterSelection.cs",
+			"settings":
+			{
+				"buffer_size": 1803,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/ItemAI.cs",
+			"settings":
+			{
+				"buffer_size": 2341,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/SpikeyFeet.cs",
+			"settings":
+			{
+				"buffer_size": 1233,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/DeathcapAI.cs",
+			"settings":
+			{
+				"buffer_size": 2389,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/JumpImprovements.cs",
+			"settings":
+			{
+				"buffer_size": 692,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/LevelLoader.cs",
+			"settings":
+			{
+				"buffer_size": 2148,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/NOTES",
+			"settings":
+			{
+				"buffer_size": 18,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/LevelScore.cs",
+			"settings":
+			{
+				"buffer_size": 1420,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/CoinCollection.cs",
+			"settings":
+			{
+				"buffer_size": 859,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/EndTrigger.cs",
+			"settings":
+			{
+				"buffer_size": 669,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/DataManager.cs",
+			"settings":
+			{
+				"buffer_size": 1301,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"remote",
+				"Remote: Disconnect from Session"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Vendelisk/Documents/2D Marriage"
+	],
+	"file_history":
+	[
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor/CoordinateBrush.cs",
+		"/C/Users/Vendelisk/Downloads/FOR UNITY/LevelDesign/2d-extras-master/2d-extras-master/README.md",
+		"/F/Drive/Drive/Code/347/csci347_s18/jacobi/jacobi.c",
+		"/C/Users/Vendelisk/Downloads/FOR UNITY/LevelDesign/Tutorial - Platformer Map From Image/Tutorial - Platformer Map From Image/Assets/LevelLoader.cs",
+		"/C/Users/Vendelisk/Downloads/FOR UNITY/LevelDesign/Tutorial - Platformer Map From Image/Tutorial - Platformer Map From Image/Tutorial - Platformer Map From Image.sln",
+		"/C/Users/Vendelisk/Downloads/CGoL/CGoL.pl",
+		"/C/Users/Vendelisk/Downloads/CGoL/README",
+		"/C/Users/Vendelisk/Downloads/GameOfLife/CGoL.hs",
+		"/C/Users/Vendelisk/Downloads/pass-by-value.lua",
+		"/C/Users/Vendelisk/Desktop/School/Winter 19/CS367/prog2/prog2_client.c",
+		"/C/Users/Vendelisk/Desktop/School/Winter 19/CS367/prog2/prog2_server.c",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Scripts/BoxScript.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Scripts/BouncyBoxy.cs",
+		"/C/Users/Vendelisk/Downloads/FOR UNITY/AudioManager/Sound.cs",
+		"/C/Users/Vendelisk/Downloads/FOR UNITY/AudioManager/AudioManager.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/BoxScript.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/PlayerMovement.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/LoadOnClick.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/CharacterController2D.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Scripts/LevelScore.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/ChangeMusic.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/CharacterSelection.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/DontDestroy.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/JumpImprovements.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/CoinCollection.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/EndTrigger.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/GameManager.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/DeathcapAI.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/CinemachineExamples/Scenes/Scripting/ScriptingExample.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/EnemyAI.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/ButtonHandler.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Main menu with parallax FREE/Scripts/SceneController.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Main menu with parallax FREE/Scripts/MenuController.cs",
+		"/C/Users/Vendelisk/Downloads/2D-Character-Controller/CharacterController2D.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/GameThing.cs"
+	],
+	"find":
+	{
+		"height": 27.2
+	},
+	"find_in_files":
+	{
+		"height": 110.4,
+		"where_history":
+		[
+			"<open files>",
+			"",
+			"ButtonHandler.cs",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"crouch",
+			"p1sd",
+			"clock",
+			"msg_waitall",
+			"ignore",
+			"onTrigg",
+			"onT",
+			"on",
+			"horizontal\")",
+			"input.",
+			"freeze",
+			"score",
+			"freeze",
+			"completelevel",
+			"todo",
+			"ignorelayer",
+			"collider2d",
+			"menuUI",
+			"crouch",
+			"input.get",
+			"die(",
+			"die",
+			"noanimator",
+			"Lerp",
+			"oncollisionenter",
+			"hascollided",
+			"Play(",
+			"Play",
+			"hascollided",
+			"localscale",
+			"scale",
+			"die",
+			"getkey",
+			"flip",
+			"horizontalmove",
+			"down",
+			"getkey",
+			"onkey",
+			"on",
+			".play",
+			"rayup",
+			"box",
+			"enabled",
+			"yield",
+			"restart",
+			"flip",
+			"xmove",
+			"move",
+			"ANIMATIONS",
+			"jump",
+			"isfalling",
+			"flip",
+			"jump",
+			"velocity",
+			"velcoit",
+			"animator",
+			"noanimator",
+			"remove",
+			"ignore",
+			"layer",
+			"Isempty",
+			"Die(",
+			"Destro",
+			"destroy",
+			"isbroken",
+			"destroy",
+			"cam",
+			"isempty",
+			"setbool",
+			"isdead",
+			"die",
+			"die(",
+			"die",
+			"invoke",
+			"layer",
+			"tag",
+			"OnCOllision",
+			"oncollision",
+			"getcomponent",
+			"BoxScript.BS",
+			"Die",
+			"PlayerMovement.Pm.Die",
+			"isGroun",
+			"hascollided",
+			"enemy",
+			"getcomponen",
+			");\n",
+			"gameobject",
+			"onTriggerEnter",
+			"die",
+			"score",
+			"gamemanager",
+			"enemylayer",
+			"head",
+			"die",
+			"disable",
+			"vcam",
+			"dont",
+			"destroy",
+			"donot",
+			"destroy",
+			"debug",
+			"time.delta",
+			"level",
+			"late",
+			"play(",
+			"getcomponent",
+			"kill",
+			"getcomponent",
+			"play(",
+			"play",
+			"moveDirection",
+			"lateupdate",
+			"move",
+			"trigger",
+			"facingright",
+			"debug.log",
+			"Options",
+			"PlayButton",
+			"new",
+			"down",
+			"key",
+			"foxAnimator",
+			"jump",
+			"button",
+			"time"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Exit",
+			"StartButton",
+			"animator"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Assets/Scripts/ChangeMusic.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								298
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Scripts/CharacterController2D.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4828,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2706,
+								2712
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 780.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Assets/Scripts/PlayerMovement.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9941,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4058,
+								4064
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"26,31": "Unnecessary using directive.",
+								"9401,9411": "Cannot modify the return value of 'Material.color' because it is not a variable"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2130.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Assets/Scripts/GameManager.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1854,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								590,
+								590
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"0,5": "Unnecessary using directive.",
+								"1599,1611": "'GameObject.GetComponent<T>()' is a method, which is not valid in the given context",
+								"26,31": "Unnecessary using directive."
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Assets/Scripts/CharacterSelection.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1803,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1140,
+								1140
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"0,5": "Unnecessary using directive.",
+								"588,593": "Operator '<' cannot be applied to operands of type 'bool' and 'double'",
+								"768,773": "Operator '>' cannot be applied to operands of type 'bool' and 'double'"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Assets/Scripts/ItemAI.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								434,
+								434
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"1093,1099": "'Animator' does not contain a definition for 'enable' and no accessible extension method 'enable' accepting a first argument of type 'Animator' could be found (are you missing a using directive or an assembly reference?)",
+								"26,31": "Unnecessary using directive."
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Assets/Scripts/SpikeyFeet.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								527,
+								527
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"0,5": "Unnecessary using directive.",
+								"26,31": "Unnecessary using directive.",
+								"479,491": "'GameObject.GetComponent<T>()' is a method, which is not valid in the given context",
+								"492,493": "Identifier expected",
+								"493,503": "'DeathcapAI' is a type, which is not valid in the given context",
+								"505,506": "Invalid expression term ')'"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Assets/Scripts/DeathcapAI.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2298,
+								2298
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"1942,1951": "Cannot modify the return value of 'Transform.localScale' because it is not a variable",
+								"26,31": "Unnecessary using directive."
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 864.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Assets/Scripts/JumpImprovements.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Assets/LevelLoader.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1384,
+								1384
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 918.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "Assets/Scripts/NOTES",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "Assets/Scripts/LevelScore.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								547,
+								547
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"0,5": "Unnecessary using directive.",
+								"26,31": "Unnecessary using directive.",
+								"449,459": "A new expression requires (), [], or {} after type"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "Assets/Scripts/CoinCollection.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 859,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"0,5": "Unnecessary using directive.",
+								"26,31": "Unnecessary using directive.",
+								"573,585": "Member 'LevelScore.addScore(int)' cannot be accessed with an instance reference; qualify it with a type name instead"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "Assets/Scripts/EndTrigger.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								482,
+								482
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "Assets/Scripts/DataManager.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								163,
+								163
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"0,5": "Unnecessary using directive.",
+								"1008,1016": "The name 'FileMode' does not exist in the current context",
+								"1160,1172": "The type or namespace name 'Serializable' could not be found (are you missing a using directive or an assembly reference?)",
+								"26,31": "Unnecessary using directive.",
+								"440,455": "The type or namespace name 'BinaryFormatter' could not be found (are you missing a using directive or an assembly reference?)",
+								"470,485": "The type or namespace name 'BinaryFormatter' could not be found (are you missing a using directive or an assembly reference?)",
+								"512,522": "The type or namespace name 'FileStream' could not be found (are you missing a using directive or an assembly reference?)",
+								"530,534": "The name 'File' does not exist in the current context",
+								"802,806": "The name 'File' does not exist in the current context",
+								"874,889": "The type or namespace name 'BinaryFormatter' could not be found (are you missing a using directive or an assembly reference?)",
+								"904,919": "The type or namespace name 'BinaryFormatter' could not be found (are you missing a using directive or an assembly reference?)",
+								"929,939": "The type or namespace name 'FileStream' could not be found (are you missing a using directive or an assembly reference?)",
+								"947,951": "The name 'File' does not exist in the current context"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.2
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 126.400001526
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 126.400001526
+	},
+	"pinned_build_system": "",
+	"project": "2D Marriage.sublime-project",
+	"replace":
+	{
+		"height": 51.2
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
