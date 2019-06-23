@@ -1,23 +1,28 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CharacterSelection : MonoBehaviour
 {
-    private List<GameObject> characters;
+    private GameObject[] characters;
     // Default character index
     private int selectionIndex = 0;
     private int rotateDir = 1;
     private bool processingButton = false;
+    // Secret character
+    public bool winners = false;
 
     private void Start() {
-    	characters = new List<GameObject>();
-    	foreach(Transform t in transform) {
-    		characters.Add(t.gameObject);
-    		t.gameObject.SetActive(false);
+    	characters = GameObject.FindGameObjectsWithTag("Player");
+        // Just make sure
+    	foreach(GameObject character in characters) {
+    		character.SetActive(false);
     	}
 
+        if(String.Equals(characters[selectionIndex].name, "Dog") && !winners)
+            selectionIndex++;
     	characters[selectionIndex].SetActive(true);
     }
 
@@ -25,13 +30,13 @@ public class CharacterSelection : MonoBehaviour
     	if((Input.GetAxisRaw("Horizontal") == -1) && !processingButton) {
             processingButton = true;
     		if(selectionIndex - 1 < 0) 
-    			Select(characters.Count -1);
+    			Select(characters.Length -1);
     		else 
     			Select(selectionIndex - 1);
     	}
     	else if((Input.GetAxisRaw("Horizontal") == 1) && !processingButton) {
             processingButton = true;
-    		if(selectionIndex + 1 >= characters.Count)
+    		if(selectionIndex + 1 >= characters.Length)
     			Select(0);
     		else
     			Select(selectionIndex + 1);
@@ -41,7 +46,7 @@ public class CharacterSelection : MonoBehaviour
         }
 
     	if(Input.GetButton("Submit")) {
-    		SceneManager.LoadScene("Level01");
+    		SceneManager.LoadScene("Intro Cutscene");
     	}
 
     	if(transform.rotation.y >= .2)
@@ -53,13 +58,23 @@ public class CharacterSelection : MonoBehaviour
     }
 
     public void Select(int index) {
-    	if(index == selectionIndex)
+    	if(index == selectionIndex) {
+            Debug.Log("This should never happen");
     		return;
-    	if(index < 0 || index >= characters.Count)
+        }
+    	if(index < 0 || index >= characters.Length) {
+            Debug.Log("This should never happen");
     		return;
+        }
 
     	characters[selectionIndex].SetActive(false);
     	selectionIndex = index;
+        if(String.Equals(characters[index].name, "Dog") && !winners) {
+            if(index < characters.Length)
+                selectionIndex = index + 1;
+            else 
+                selectionIndex = 0;
+        }
     	characters[selectionIndex].SetActive(true);
     	GameManager.characterIndex = selectionIndex;
     }

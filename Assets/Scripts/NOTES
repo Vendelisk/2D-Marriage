@@ -1,1 +1,8 @@
-EMPTY BOX BOUNCING
+move OnTriggerEnter2D stuff from ItemAI to PlayerMovement and reference it, you dope!
+
+make empty blocks bounce on head collision
+add death animations for Jen and Thyrza
+add persistent "winners" variable trigger for game completion
+Fix issues where you are unable to move or jump (stuck between two tiles without enough space between them for example) == CHARACTER CONTROLLER DAY
+Add sliding numbers for score
+Fix "Grow" animation (this will likely fix the "stuck in ground on picking up item" issue)

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"time",
+				"timeScale\tfloat"
+			],
+			[
 				"P",
 				"Pause()\tvoid"
 			],
@@ -95,7 +99,16 @@
 			"file": "Assets/Scripts/CharacterSelection.cs",
 			"settings":
 			{
-				"buffer_size": 1803,
+				"buffer_size": 2353,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/SceneTrigger.cs",
+			"settings":
+			{
+				"buffer_size": 220,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
@@ -104,7 +117,7 @@
 			"file": "Assets/Scripts/ItemAI.cs",
 			"settings":
 			{
-				"buffer_size": 2341,
+				"buffer_size": 2696,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
@@ -119,65 +132,11 @@
 			}
 		},
 		{
-			"file": "Assets/Scripts/DeathcapAI.cs",
-			"settings":
-			{
-				"buffer_size": 2389,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Assets/Scripts/JumpImprovements.cs",
-			"settings":
-			{
-				"buffer_size": 692,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Assets/LevelLoader.cs",
-			"settings":
-			{
-				"buffer_size": 2148,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "Assets/Scripts/NOTES",
 			"settings":
 			{
-				"buffer_size": 18,
+				"buffer_size": 500,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Assets/Scripts/LevelScore.cs",
-			"settings":
-			{
-				"buffer_size": 1420,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Assets/Scripts/CoinCollection.cs",
-			"settings":
-			{
-				"buffer_size": 859,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Assets/Scripts/EndTrigger.cs",
-			"settings":
-			{
-				"buffer_size": 669,
-				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
 		},
@@ -267,6 +226,29 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Scripts/DeathcapAI.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Scripts/EndTrigger.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Scripts/CoinCollection.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Scripts/LevelScore.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Scripts/JumpImprovements.cs",
+		"/C/Users/Vendelisk/Downloads/FOR UNITY/2d-techdemos-master/2d-techdemos-master/README.md",
+		"/C/Users/Vendelisk/Downloads/FOR UNITY/2d-techdemos-master/2d-techdemos-master/Assets/Tilemap/Brushes/Random Brush/Scripts/Editor/RandomBrush.cs",
+		"/C/Users/Vendelisk/Downloads/FOR UNITY/2d-techdemos-master/2d-techdemos-master/Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor/GameObjectBrush.cs",
+		"/C/Users/Vendelisk/Downloads/FOR UNITY/2d-techdemos-master/2d-techdemos-master/Assets/Tilemap/Brushes/Prefab Brush/Scripts/Editor/PrefabBrush.cs",
+		"/C/Users/Vendelisk/Downloads/FOR UNITY/2d-techdemos-master/2d-techdemos-master/Assets/Tilemap/Brushes/Line Brush/Scripts/Editor/LineBrush.cs",
+		"/C/Users/Vendelisk/Downloads/FOR UNITY/2d-techdemos-master/2d-techdemos-master/Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor/CoordinateBrush.cs",
+		"/C/Users/Vendelisk/Downloads/FOR UNITY/2d-techdemos-master/2d-techdemos-master/Assets/Tilemap/Brushes/Tint Brush/Scripts/Editor/TintBrush.cs",
+		"/C/Users/Vendelisk/Downloads/FOR UNITY/2d-techdemos-master/2d-techdemos-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/Editor/TintBrushSmooth.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Tilemap/Brushes/Group Brush/Scripts/Editor/GroupBrush.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Tilemap/Brushes/Random Brush/Scripts/Editor/RandomBrush.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/AudioChecker.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/LevelLoader.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Castlevania2/about.txt",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/Editor/TintBrushSmooth.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor/GameObjectBrush.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Tilemap/Brushes/Prefab Brush/Scripts/Editor/PrefabBrush.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Tilemap/Brushes/Tint Brush/Scripts/Editor/TintBrush.cs",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Tilemap/Brushes/Line Brush/Scripts/Editor/LineBrush.cs",
 		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor/CoordinateBrush.cs",
 		"/C/Users/Vendelisk/Downloads/FOR UNITY/LevelDesign/2d-extras-master/2d-extras-master/README.md",
 		"/F/Drive/Drive/Code/347/csci347_s18/jacobi/jacobi.c",
@@ -286,7 +268,6 @@
 		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/PlayerMovement.cs",
 		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/LoadOnClick.cs",
 		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/CharacterController2D.cs",
-		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Scripts/LevelScore.cs",
 		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/ChangeMusic.cs",
 		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/CharacterSelection.cs",
 		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/DontDestroy.cs",
@@ -305,13 +286,15 @@
 	],
 	"find":
 	{
-		"height": 27.2
+		"height": 40.8
 	},
 	"find_in_files":
 	{
 		"height": 110.4,
 		"where_history":
 		[
+			"<open files>",
+			"<current file>",
 			"<open files>",
 			"",
 			"ButtonHandler.cs",
@@ -323,6 +306,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"groundcheck",
+			"console.write",
+			"parent",
+			"deathhop",
+			"local",
+			"position",
+			"new vector3",
+			"hurt",
+			"die",
+			"play",
+			"new vector3",
+			"die",
+			"play",
+			"timescale",
+			"active",
+			"setactive",
+			"length",
+			"Count",
+			"characters",
+			"console",
 			"crouch",
 			"p1sd",
 			"clock",
@@ -430,25 +433,7 @@
 			"late",
 			"play(",
 			"getcomponent",
-			"kill",
-			"getcomponent",
-			"play(",
-			"play",
-			"moveDirection",
-			"lateupdate",
-			"move",
-			"trigger",
-			"facingright",
-			"debug.log",
-			"Options",
-			"PlayButton",
-			"new",
-			"down",
-			"key",
-			"foxAnimator",
-			"jump",
-			"button",
-			"time"
+			"kill"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -456,6 +441,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Length",
+			"length",
 			"Exit",
 			"StartButton",
 			"animator"
@@ -469,7 +456,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -499,7 +486,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -515,8 +502,8 @@
 						"selection":
 						[
 							[
-								2706,
-								2712
+								2268,
+								2268
 							]
 						],
 						"settings":
@@ -525,10 +512,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 780.0,
+						"translation.y": 510.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -544,8 +531,8 @@
 						"selection":
 						[
 							[
-								4058,
-								4064
+								7942,
+								8064
 							]
 						],
 						"settings":
@@ -560,10 +547,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2130.4,
+						"translation.y": 3570.4,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -579,8 +566,8 @@
 						"selection":
 						[
 							[
-								590,
-								590
+								1005,
+								1005
 							]
 						],
 						"settings":
@@ -597,7 +584,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -606,15 +593,79 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1803,
+						"buffer_size": 2353,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1140,
-								1140
+								1743,
+								1743
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"14,19": "Unnecessary using directive.",
+								"40,45": "Unnecessary using directive.",
+								"634,639": "The name 'index' does not exist in the current context"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 654.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Assets/SceneTrigger.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								212
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Assets/Scripts/ItemAI.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2161,
+								2161
 							]
 						],
 						"settings":
@@ -622,55 +673,20 @@
 							"oops":
 							{
 								"0,5": "Unnecessary using directive.",
-								"588,593": "Operator '<' cannot be applied to operands of type 'bool' and 'double'",
-								"768,773": "Operator '>' cannot be applied to operands of type 'bool' and 'double'"
-							},
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 108.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "Assets/Scripts/ItemAI.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2341,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								434,
-								434
-							]
-						],
-						"settings":
-						{
-							"oops":
-							{
-								"1093,1099": "'Animator' does not contain a definition for 'enable' and no accessible extension method 'enable' accepting a first argument of type 'Animator' could be found (are you missing a using directive or an assembly reference?)",
-								"26,31": "Unnecessary using directive."
+								"1442,1443": "The * or -> operator must be applied to a pointer",
+								"1879,1880": "The * or -> operator must be applied to a pointer"
 							},
 							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "Assets/Scripts/SpikeyFeet.cs",
 					"semi_transient": false,
 					"settings":
@@ -703,117 +719,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "Assets/Scripts/DeathcapAI.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2389,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2298,
-								2298
-							]
-						],
-						"settings":
-						{
-							"oops":
-							{
-								"1942,1951": "Cannot modify the return value of 'Transform.localScale' because it is not a variable",
-								"26,31": "Unnecessary using directive."
-							},
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 864.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "Assets/Scripts/JumpImprovements.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 692,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								268,
-								268
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "Assets/LevelLoader.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2148,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1384,
-								1384
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 918.4,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
 					"file": "Assets/Scripts/NOTES",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18,
+						"buffer_size": 500,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18,
-								18
+								379,
+								379
 							]
 						],
 						"settings":
@@ -824,107 +747,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "Assets/Scripts/LevelScore.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1420,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								547,
-								547
-							]
-						],
-						"settings":
-						{
-							"oops":
-							{
-								"0,5": "Unnecessary using directive.",
-								"26,31": "Unnecessary using directive.",
-								"449,459": "A new expression requires (), [], or {} after type"
-							},
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 54.4,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "Assets/Scripts/CoinCollection.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 859,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								169,
-								169
-							]
-						],
-						"settings":
-						{
-							"oops":
-							{
-								"0,5": "Unnecessary using directive.",
-								"26,31": "Unnecessary using directive.",
-								"573,585": "Member 'LevelScore.addScore(int)' cannot be accessed with an instance reference; qualify it with a type name instead"
-							},
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "Assets/Scripts/EndTrigger.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 669,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								482,
-								482
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
+					"buffer": 9,
 					"file": "Assets/Scripts/DataManager.cs",
 					"semi_transient": false,
 					"settings":
@@ -964,7 +791,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -1030,6 +857,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"player",
+				"Assets\\Scripts\\PlayerMovement.cs"
+			]
 		],
 		"width": 0.0
 	},
