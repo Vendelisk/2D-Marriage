@@ -8,6 +8,7 @@ public class DeathcapAI : MonoBehaviour
 	private int XMoveDirection;
 	// used in LateUpdate to avoid single objects with 2 colliders reporting 2 collisions
 	private bool hasCollided;
+    private bool flipping;
     private Animator animator;
 
     // Start is called before the first frame update
@@ -29,25 +30,37 @@ public class DeathcapAI : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D hit) {
-        if(hit.gameObject.layer == 14) { /* 14 is Item layer*/ }
-        else if(hit.gameObject.tag.Equals("Player") && hit.collider.gameObject.tag.Equals("PlayerFeet")) {
+        // ignore
+        if(hit.gameObject.layer == LayerMask.NameToLayer("Item")) {  }
+        // kill self
+        else if(hit.gameObject.CompareTag("Player") && hit.collider.gameObject.CompareTag("PlayerFeet")) {
             this.gameObject.GetComponent<AudioSource>().Play();
             this.Die();
             this.EnemySpeed = 0f;
         }
         // kill player
-        else if(hit.gameObject.tag.Equals("Player") && !hit.collider.gameObject.tag.Equals("PlayerFeet")) {
+        else if(hit.gameObject.CompareTag("Player") && !hit.collider.gameObject.CompareTag("PlayerFeet")) {
             PlayerMovement.PM.Hurt();
         }
-    	else if(!hit.gameObject.tag.Equals("Ground") && !hasCollided) {
+    	else if(!hit.gameObject.CompareTag("Ground") && !hasCollided) {
     		//SoundManagerScript.PlaySound("hit");
     		hasCollided = true;
     		Flip();
     	}
     }
 
+    void OnCollisionStay2D(Collision2D col)
+    {
+        if((col.gameObject.layer == LayerMask.NameToLayer("Enemy") || col.gameObject.layer == LayerMask.NameToLayer("Box")) && !flipping)
+        {
+            flipping = true;
+            Flip();
+            StartCoroutine(FlipDelay(.2f));
+        }
+    }
+
     void OnTriggerEnter2D(Collider2D col) {
-    	if(col.gameObject.tag.Equals("EmptyCollider")) { // Don't walk off cliffs
+    	if(col.gameObject.CompareTag("EmptyCollider")) { // Don't walk off cliffs
     		Flip();
     	}
     }
@@ -64,6 +77,8 @@ public class DeathcapAI : MonoBehaviour
 
     // enemy dies
     public void Die() {
+        GetComponent<Rigidbody2D>().isKinematic = true;
+        GetComponent<Collider2D>().enabled = false;
         transform.localScale = new Vector2(Mathf.Abs(transform.localScale.x), transform.localScale.y);
         animator.SetBool("IsDead", true);
         LevelScore.LS.addScore(100);
@@ -72,8 +87,13 @@ public class DeathcapAI : MonoBehaviour
 
     IEnumerator Remove() {
         //this.gameObject.GetComponent<Collider2D>().enabled = false;
-        Physics2D.IgnoreLayerCollision(10, 8);
         yield return new WaitForSeconds(.5f);
         Destroy(this.gameObject);
+    }
+
+    IEnumerator FlipDelay(float time)
+    {
+        yield return new WaitForSeconds(time);
+        flipping = false;
     }
 }

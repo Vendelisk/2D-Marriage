@@ -51,12 +51,6 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        //Debug.DrawRay(new Vector2(transform.position.x-.2f, transform.position.y), Vector2.up * .2f, Color.blue);
-        //Debug.DrawRay(new Vector2(transform.position.x+.2f, transform.position.y), Vector2.up * .2f, Color.blue);
-        //Debug.DrawRay(new Vector2(transform.position.x+.5f, transform.position.y-.5f), Vector2.down *.3f, Color.blue);
-
-
         if(dead) {
             DeathHop();
         }
@@ -117,12 +111,9 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void OnCollisionStay2D(Collision2D col) {
-        if(!controller.isGrounded() && !(col.gameObject.layer == 10)) { // 10 IS ENEMY LAYER
+        if(!controller.isGrounded() && !(col.gameObject.layer == LayerMask.NameToLayer("Enemy"))) { 
             isColliding = true;
             horizontalMove = 0f;
-        }
-        else {
-            isColliding = false;
         }
     }
 
@@ -148,27 +139,33 @@ public class PlayerMovement : MonoBehaviour
 
     void PlayerRaycast() {
         // HIT FROM BENEATH
-        RaycastHit2D rayUpBoxL = Physics2D.Raycast(new Vector2(transform.position.x-.2f, transform.position.y), Vector2.up, .2f, boxLayer);
-        RaycastHit2D rayUpBoxR = Physics2D.Raycast(new Vector2(transform.position.x+.2f, transform.position.y), Vector2.up, .2f, boxLayer);
-        if(isBig) {
-            rayUpBoxL = Physics2D.Raycast(new Vector2(transform.position.x-.2f, transform.position.y), Vector2.up, .4f, boxLayer);
-            rayUpBoxR = Physics2D.Raycast(new Vector2(transform.position.x+.2f, transform.position.y), Vector2.up, .4f, boxLayer);
+        //Debug.DrawRay(new Vector2(transform.position.x - .2f, transform.position.y), Vector2.up, Color.blue);
+        //Debug.DrawRay(new Vector2(transform.position.x + .2f, transform.position.y), Vector2.up, Color.blue);
+        RaycastHit2D rayUpBoxL, rayUpBoxR;
+        if (isBig) {
+            rayUpBoxL = Physics2D.Raycast(new Vector2(transform.position.x-.2f, transform.position.y), Vector2.up, .5f, boxLayer);
+            rayUpBoxR = Physics2D.Raycast(new Vector2(transform.position.x+.2f, transform.position.y), Vector2.up, .5f, boxLayer);
+        }
+        else
+        {
+            rayUpBoxL = Physics2D.Raycast(new Vector2(transform.position.x - .2f, transform.position.y), Vector2.up, .3f, boxLayer);
+            rayUpBoxR = Physics2D.Raycast(new Vector2(transform.position.x + .2f, transform.position.y), Vector2.up, .3f, boxLayer);
         }
 
         if(rayUpBoxL && (rayUpBoxL.distance < 1f) && !boxHit) {
             boxHit = true;
-            if(rayUpBoxL.collider.gameObject.tag.Equals("CoinBox") && !rayUpBoxL.collider.gameObject.GetComponent<Animator>().GetBool("IsCoin")) {
+            if(rayUpBoxL.collider.gameObject.CompareTag("CoinBox") && !rayUpBoxL.collider.gameObject.GetComponent<Animator>().GetBool("IsCoin")) {
                 rayUpBoxL.collider.gameObject.GetComponent<Animator>().SetBool("IsCoin", true);
                 rayUpBoxL.collider.gameObject.GetComponent<AudioSource>().Play();
                 LevelScore.LS.addScore(200);
                 LevelScore.LS.addCoin();
             }
-            else if(rayUpBoxL.collider.gameObject.tag.Equals("ItemBox") && !rayUpBoxL.collider.gameObject.GetComponent<Animator>().GetBool("IsCrab")) {
+            else if(rayUpBoxL.collider.gameObject.CompareTag("ItemBox") && !rayUpBoxL.collider.gameObject.GetComponent<Animator>().GetBool("IsCrab")) {
                 rayUpBoxL.collider.gameObject.GetComponent<Animator>().SetBool("IsCrab", true);
                 rayUpBoxL.collider.gameObject.GetComponent<AudioSource>().Play();
                 StartCoroutine("NoAnimator", rayUpBoxL.collider.gameObject.GetComponent<Animator>());
             }
-            else if(rayUpBoxL.collider.gameObject.tag.Equals("BreakBox")) {
+            else if(rayUpBoxL.collider.gameObject.CompareTag("BreakBox")) {
                 if(!rayUpBoxL.collider.gameObject.GetComponent<AudioSource>().isPlaying)
                     rayUpBoxL.collider.gameObject.GetComponent<AudioSource>().Play();
                 if(isBig) {
@@ -179,18 +176,18 @@ public class PlayerMovement : MonoBehaviour
         }
         else if(rayUpBoxR && (rayUpBoxR.distance < 1f) && !boxHit) {
             boxHit = true;
-            if(rayUpBoxR.collider.gameObject.tag.Equals("CoinBox") && !rayUpBoxR.collider.gameObject.GetComponent<Animator>().GetBool("IsCoin")) {
+            if(rayUpBoxR.collider.gameObject.CompareTag("CoinBox") && !rayUpBoxR.collider.gameObject.GetComponent<Animator>().GetBool("IsCoin")) {
                 rayUpBoxR.collider.gameObject.GetComponent<Animator>().SetBool("IsCoin", true);
                 rayUpBoxR.collider.gameObject.GetComponent<AudioSource>().Play();
                 LevelScore.LS.addScore(200);
                 LevelScore.LS.addCoin();
             }
-            else if(rayUpBoxR.collider.gameObject.tag.Equals("ItemBox") && !rayUpBoxR.collider.gameObject.GetComponent<Animator>().GetBool("IsCrab")) {
+            else if(rayUpBoxR.collider.gameObject.CompareTag("ItemBox") && !rayUpBoxR.collider.gameObject.GetComponent<Animator>().GetBool("IsCrab")) {
                 rayUpBoxR.collider.gameObject.GetComponent<Animator>().SetBool("IsCrab", true);
                 rayUpBoxR.collider.gameObject.GetComponent<AudioSource>().Play();
                 StartCoroutine("NoAnimator", rayUpBoxR.collider.gameObject.GetComponent<Animator>());
             }
-            else if(rayUpBoxR.collider.gameObject.tag.Equals("BreakBox")) {
+            else if(rayUpBoxR.collider.gameObject.CompareTag("BreakBox")) {
                 if(!rayUpBoxR.collider.gameObject.GetComponent<AudioSource>().isPlaying)
                     rayUpBoxR.collider.gameObject.GetComponent<AudioSource>().Play();
                 if(isBig) {

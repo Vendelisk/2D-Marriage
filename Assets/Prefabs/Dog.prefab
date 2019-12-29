@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 8874621563196151471}
   - component: {fileID: 8874621563196151468}
   - component: {fileID: 8874621563196151465}
-  - component: {fileID: 8874621563196151470}
+  - component: {fileID: 6531137272789715638}
   - component: {fileID: 8874621563196151464}
   - component: {fileID: 8874621563196151467}
   - component: {fileID: 8874621563196151466}
@@ -242,8 +242,8 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.12595767, y: 0.10383977}
   m_EdgeRadius: 0
---- !u!58 &8874621563196151470
-CircleCollider2D:
+--- !u!70 &6531137272789715638
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -255,9 +255,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.005085281, y: -0.07161935}
-  serializedVersion: 2
-  m_Radius: 0.078690015
+  m_Offset: {x: 0, y: -0.0604944}
+  m_Size: {x: 0.15044062, y: 0.18864064}
+  m_Direction: 0
 --- !u!114 &8874621563196151464
 MonoBehaviour:
   m_ObjectHideFlags: 0

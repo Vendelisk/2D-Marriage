@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4534576568316984437}
   - component: {fileID: 4534576568316984436}
   - component: {fileID: 4534576568316984439}
-  - component: {fileID: 4534576568316984438}
+  - component: {fileID: 7514161950401634794}
   - component: {fileID: 4534576568316984329}
   - component: {fileID: 4534576568316984433}
   - component: {fileID: 4534576568316984446}
@@ -212,8 +212,8 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.14047125, y: 0.11570683}
   m_EdgeRadius: 0
---- !u!58 &4534576568316984438
-CircleCollider2D:
+--- !u!70 &7514161950401634794
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -221,13 +221,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 4534576568316984328}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 064a3b7c231fd9744980936c4b5ab5c1, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.004244549, y: -0.061212134}
-  serializedVersion: 2
-  m_Radius: 0.087712966
+  m_Offset: {x: 0, y: -0.044062376}
+  m_Size: {x: 0.15885477, y: 0.21831751}
+  m_Direction: 0
 --- !u!114 &4534576568316984329
 MonoBehaviour:
   m_ObjectHideFlags: 0

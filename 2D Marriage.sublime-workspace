@@ -78,15 +78,6 @@
 			}
 		},
 		{
-			"file": "Assets/Scripts/PlayerMovement.cs",
-			"settings":
-			{
-				"buffer_size": 9941,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "Assets/Scripts/GameManager.cs",
 			"settings":
 			{
@@ -96,10 +87,28 @@
 			}
 		},
 		{
+			"file": "Assets/Scripts/PlayerMovement.cs",
+			"settings":
+			{
+				"buffer_size": 9822,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "Assets/Scripts/CharacterSelection.cs",
 			"settings":
 			{
-				"buffer_size": 2353,
+				"buffer_size": 2750,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/DeathcapAI.cs",
+			"settings":
+			{
+				"buffer_size": 2954,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
@@ -126,7 +135,7 @@
 			"file": "Assets/Scripts/SpikeyFeet.cs",
 			"settings":
 			{
-				"buffer_size": 1233,
+				"buffer_size": 405,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
@@ -137,6 +146,15 @@
 			{
 				"buffer_size": 500,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/BounceBox.cs",
+			"settings":
+			{
+				"buffer_size": 709,
+				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
 		},
@@ -226,6 +244,25 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Vendelisk/Desktop/WebStuff/Magic Wear_ Gallery.html",
+		"/C/Users/Vendelisk/Downloads/gimp-plugin-export-layers-master/gimp-plugin-export-layers-master/README.md",
+		"/C/Users/Vendelisk/Documents/321 Games/Dark Doubles/.git/MERGE_MSG",
+		"/C/Users/Vendelisk/Downloads/GameController.cs",
+		"/C/Users/Vendelisk/Documents/321 Games/Lab1/New Unity Project/Assets/Scripts/PlayerMovement.cs",
+		"/C/Users/Vendelisk/Documents/321 Games/Lab1/New Unity Project/Assets/GameController.cs",
+		"/C/Users/Vendelisk/Documents/321 Games/Lab1/New Unity Project/Assets/testscript.cs",
+		"/C/Users/Vendelisk/Documents/321 Games/Lab1/New Unity Project/Assets/PlayerMovement.cs",
+		"/C/Users/Vendelisk/Documents/321",
+		"/C/Users/Vendelisk/Documents/321 Games/Lab1/New Unity Project/Games/Lab1/New",
+		"/C/Users/Vendelisk/Documents/321 Games/Lab1/New Unity Project/Unity",
+		"/C/Users/Vendelisk/Documents/321 Games/Lab1/New Unity Project/Project/Assets/testscript.cs",
+		"/C/Users/Vendelisk/Documents/321 Games/Lab1/New Unity Project/Project/Assets/GameController.cs",
+		"/C/Users/Vendelisk/Documents/321 Games/Lab1/New Unity Project/Project/Assets/PlayerMovement.cs",
+		"/C/Users/Vendelisk/Documents/321 Games/Lab1/New Unity Project/Assets/VSCode/README.md",
+		"/C/Users/Vendelisk/AppData/Local/Temp/Temp1_PapaParse-5.0.2.zip/PapaParse-5.0.2/README.md",
+		"/C/Users/Vendelisk/Desktop/usher-waltz.html",
+		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Scripts/usher-waltz.html",
+		"/C/Users/Vendelisk/Downloads/HUNTER_X_HUNTER_082.srt",
 		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Scripts/DeathcapAI.cs",
 		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Scripts/EndTrigger.cs",
 		"/C/Users/Vendelisk/Documents/2D Marriage/Assets/Scripts/CoinCollection.cs",
@@ -306,6 +343,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<script",
+			"script",
+			"fixedupdate",
+			"update",
+			"isbig",
 			"groundcheck",
 			"console.write",
 			"parent",
@@ -428,12 +470,7 @@
 			"donot",
 			"destroy",
 			"debug",
-			"time.delta",
-			"level",
-			"late",
-			"play(",
-			"getcomponent",
-			"kill"
+			"time.delta"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -456,7 +493,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -486,7 +523,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -512,49 +549,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 510.0,
+						"translation.y": 1512.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "Assets/Scripts/PlayerMovement.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9941,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7942,
-								8064
-							]
-						],
-						"settings":
-						{
-							"oops":
-							{
-								"26,31": "Unnecessary using directive.",
-								"9401,9411": "Cannot modify the return value of 'Material.color' because it is not a variable"
-							},
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3570.4,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "Assets/Scripts/GameManager.cs",
 					"semi_transient": false,
 					"settings":
@@ -588,20 +590,55 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "Assets/Scripts/CharacterSelection.cs",
+					"buffer": 3,
+					"file": "Assets/Scripts/PlayerMovement.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2353,
+						"buffer_size": 9822,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1743,
-								1743
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"26,31": "Unnecessary using directive.",
+								"9401,9411": "Cannot modify the return value of 'Material.color' because it is not a variable"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4698.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Assets/Scripts/CharacterSelection.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2641,
+								2641
 							]
 						],
 						"settings":
@@ -617,7 +654,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 654.4,
+						"translation.y": 1026.4,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -625,6 +662,36 @@
 				},
 				{
 					"buffer": 5,
+					"file": "Assets/Scripts/DeathcapAI.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "Assets/SceneTrigger.cs",
 					"semi_transient": false,
 					"settings":
@@ -648,11 +715,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "Assets/Scripts/ItemAI.cs",
 					"semi_transient": false,
 					"settings":
@@ -664,8 +731,8 @@
 						"selection":
 						[
 							[
-								2161,
-								2161
+								1292,
+								1422
 							]
 						],
 						"settings":
@@ -682,24 +749,24 @@
 						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "Assets/Scripts/SpikeyFeet.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1233,
+						"buffer_size": 405,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								527,
-								527
+								0,
+								0
 							]
 						],
 						"settings":
@@ -719,11 +786,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "Assets/Scripts/NOTES",
 					"semi_transient": false,
 					"settings":
@@ -747,11 +814,39 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
+					"file": "Assets/BounceBox.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
 					"file": "Assets/Scripts/DataManager.cs",
 					"semi_transient": false,
 					"settings":
@@ -791,7 +886,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
